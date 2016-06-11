@@ -1,0 +1,25 @@
+{
+  "name": "jdp-internship-website",
+  "version": "1.0.0",
+  "description": "The JDP Internship website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/David-JDP/jdp-internship-website.git"
+  },
+  "author": "The JDP Internship",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/David-JDP/jdp-internship-website#readme",
+  "dependencies": {
+    "browser-sync": "^2.12.8",
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.3.1",
+    "gulp-watch": "^4.3.5",
+    "jade": "^1.11.0"
+  }
+}
